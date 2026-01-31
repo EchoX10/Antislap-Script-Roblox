@@ -4,7 +4,7 @@ pcall(function()
     drag = loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Drag-UI-SUPPORTS-MOBILE-22790"))()
 end)
 if drag == nil then -- your executor actually sucks if the script has to do this
-    drag = function(f) -- the drag loadstring is way longer than this function, this one is just a crappy replacement
+    drag = function(f) -- the drag loadstring s way longer than this function, this one is just a crappy replacement
         if f then
             f.Active = true
             f.Draggable = true
